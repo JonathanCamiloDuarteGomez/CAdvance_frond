@@ -104,7 +104,7 @@ document.getElementById('form-agregar-pelicula').addEventListener('submit', asyn
     }
 
     try {
-        const response = await fetch(`http://peliculas-back-api-env.eba-p4yk7g9c.sa-east-1.elasticbeanstalk.com/api/peliculas/${usuario}?titulo=${encodeURIComponent(titulo)}`, {
+        const response = await fetch(`http://18.230.23.222/api/peliculas/${usuario}?titulo=${encodeURIComponent(titulo)}`, {
         //const response = await fetch(`http://peliculas-back-api-env.eba-p4yk7g9c.sa-east-1.elasticbeanstalk.com/api/peliculas/${usuario}?titulo=${encodeURIComponent(titulo)}`, {
             method: 'POST'
         });

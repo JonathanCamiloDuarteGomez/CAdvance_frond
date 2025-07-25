@@ -152,7 +152,7 @@
             
             try {
                 //const response = await fetch('http://localhost:8080/api/usuarios', {
-        const response = await fetch('http://peliculas-back-api-env.eba-p4yk7g9c.sa-east-1.elasticbeanstalk.com/api/usuarios', {
+        const response = await fetch('http://18.230.23.222/api/usuarios', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -190,7 +190,7 @@
         //funcion para conectarse con el servidor y enviar los datos para la autenticación
         async function authenticateUser(nombre, password) {
             try {
-               const response = await fetch('http://peliculas-back-api-env.eba-p4yk7g9c.sa-east-1.elasticbeanstalk.com/api/usuarios/login', {
+               const response = await fetch('http://18.230.23.222/api/usuarios/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

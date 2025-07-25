@@ -1,6 +1,6 @@
 
 //const baseURL = 'http://localhost:8080';
-const baseURL = 'http://peliculas-back-api-env.eba-p4yk7g9c.sa-east-1.elasticbeanstalk.com';
+const baseURL = 'http://18.230.23.222';
 
 export default function getDatos(endpoint) {
     return fetch(`${baseURL}${endpoint}`)
